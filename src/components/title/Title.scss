@@ -1,0 +1,48 @@
+.bg{
+  position: relative;
+  background-image: url('../../assets/images/bg.png');
+  background-repeat: no-repeat;
+  background-size: 100%;
+  padding: 134px 0 200px 0;
+  height: 615px;
+
+  .allContent{
+    position: relative;
+  }
+
+  .text__content{
+    position: absolute;
+    color: #FFFFFF;
+    background: #B031DD;
+    padding: 218px 21px 180px 40px;
+    background-image: url(../../assets/images/text_bg.png);
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    z-index: 22;
+    h1{
+      font-size: 78px;
+      line-height: 87px;
+      font-weight: 600;
+      margin-bottom: 40px;
+    }
+    p{
+      max-width: 650px;
+      font-weight: 400;
+      font-size: 28px;
+      line-height: 31px;
+      margin-bottom: 63px;
+      padding-left: 30px;
+    }
+    a{
+      margin-left: 30px;
+      border: 1px solid #fff;
+      padding: 9px 17px;
+    }
+
+  }
+  .picture{
+    position: absolute;
+    right: 0;
+    z-index: 21;
+  }
+}

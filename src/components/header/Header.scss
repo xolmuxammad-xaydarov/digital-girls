@@ -1,0 +1,60 @@
+.header{
+  background-color: rgba(0,0,0,0);
+  position:absolute;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index:20;
+  color: #fff;
+
+  .logos{
+    display: flex;
+    align-items: center;
+  }
+
+  .select{
+    background-color: transparent;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    color: #fff;
+    
+    option{
+      background-color: #B131DD;
+    }
+
+  }
+
+  .to__line_header{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
+
+    .right_nav{
+      display: flex;
+      align-items: center;
+
+      ul{
+        display: flex;
+        padding-right: 30px;
+      }
+      li{
+        margin-left: 30px;
+      }
+      button{
+        font-family: 'Comfortaa';
+        padding: 9px 17px;
+        background: #B131DD;
+        border-radius: 2px;
+        border: none;
+        color: #fff;
+        margin-left: 30px;
+        cursor: pointer;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 18px;
+      }
+    }
+  }
+
+}
