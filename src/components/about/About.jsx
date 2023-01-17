@@ -8,7 +8,6 @@ export default function About() {
         <h2 className='about__title'>О проекте</h2>
 
 
-        div
       </div>
     </div>
   )
