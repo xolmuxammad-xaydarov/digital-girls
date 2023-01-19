@@ -1,7 +1,87 @@
-.about__title{
-  font-weight: 700;
-  font-size: 42px;
-  line-height: 129.5%;
-  text-align: center;
-  margin-bottom: 50px;
+.about{
+  // background-image: url(../../assets/images/about__bg.png);
+  // background-repeat: no-repeat;
+  // background-position:right;
+  // background-position-y: 0px;
+
+  .about__title{
+    margin:0px 0 50px 0;
+    text-align: center;
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 129.5%;
+  }
+
+  .teams{
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
+
+    .background{
+      background-color: #fff;
+      display: flex;
+      justify-content: space-between;
+      width: 1428px;
+      height: 543px;
+    }
+    .img__block{
+      position: relative;
+      img{
+        padding-top: 69px;
+        position: absolute;
+        left: -118px;
+      }
+    }
+
+    .team1__text__block{
+      display: flex;
+      justify-content: flex-end;
+      padding: 84px 27px 0 0;
+    }
+
+    .team1__text{
+      max-width: 750px;
+      font-weight: 600;
+      font-size: 28px;
+      line-height: 36px;
+      text-align: right;
+    }
+  }
+
+  .teams2{
+    position: relative;
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 114px;
+
+    .background2{
+      background-color: #fff;
+      display: flex;
+      justify-content: space-between;
+      width: 1333px;
+      height: 320px;
+    }
+
+    .team1__text__block2{
+      width: 727px;
+      display: flex;
+      justify-content: flex-end;
+    }
+
+    .team1__text2{
+      font-weight: 600;
+      font-size: 28px;
+      line-height: 36px;
+      padding: 94px 0px 0 27px;
+    }
+
+    .img__block2{
+      position: relative;
+      img{
+        position: absolute;
+        right: -116px;
+        top: -55px;
+      }
+    }
+  }
 }

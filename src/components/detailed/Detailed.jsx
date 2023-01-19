@@ -1,18 +1,15 @@
 import React from 'react'
-import './About.scss'
-import team1 from '../../assets/images/team1.png';
-import team2 from '../../assets/images/team2.png';
+import './Detailed.scss'
+import image8 from '../../assets/images/image8.png'
+import image10 from '../../assets/images/image10.png'
 
-export default function About() {
+export default function Detailed() {
   return (
-    <div className='about'>
-      <div className="container">
-        <h2 className='about__title'>О проекте</h2>
-
-        <div className="teams">
+    <div className='detailed container'>
+       <div className="teams">
           <div className="background">
             <div className='img__block'>
-              <img src={team1} alt="" />
+              <img src={image8} alt="" />
             </div>
             <div className='team1__text__block'>
               <p className='team1__text'>
@@ -26,15 +23,14 @@ export default function About() {
           <div className="background2">
             <div className='team1__text__block2'>
               <p className='team1__text2'>
-              Проект “Программа обучения девушек в сфере И.Т ”  предназначен для девушек в возрасте 16-35 ,которые имеет базовые знание в сфере айти.
+              Рабочая группа будет состоят из высококвалифицированных тренеров-специалистов. Для полного информирования участников проекта требуется освещение через СМИ, разработка сайта и создание PR-группы. Рабочей группой будут разработаны модули, программы направлений  в проекте. 
               </p>
             </div>
             <div className='img__block2'>
-              <img src={team2} alt="" />
+              <img src={image10} alt="" />
             </div>
           </div>
         </div>
-      </div>
     </div>
   )
 }

@@ -1,0 +1,64 @@
+.ways{
+  background-image: url(../../assets/images/ways__bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: 113px;
+  color: white;
+
+  h2{
+    padding: 35px 0 25px 0;
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 129.5%;
+    text-align: center;
+  }
+  p{
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 36px;
+    text-align: center;
+  }
+  .cards{
+    padding: 100px 0 117px;
+
+    .cards__btn{
+      font-family: 'Comfortaa';
+      font-weight: 600;
+      font-size: 16px;
+      line-height: 18px;
+      padding: 9px 22px;
+      border: none;
+      background: #B131DD;
+      border-radius: 2px;
+      color: white;
+      display: block;
+      margin: 49px auto 0 auto;
+      cursor: pointer;
+    }
+  }
+  .cards__list{
+    display: flex;
+    justify-content: space-between;
+  }
+  .card{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+    background: rgba(189, 0, 255, 0.4);
+    backdrop-filter: blur(2.5px);
+    border-radius: 4.68668px;
+    width:198px;
+    height:240px;
+
+    span{
+      display: block;
+      padding: 21px 0 21px 0;
+      text-align: center;
+    }
+    img{
+      width: 122px;
+
+    }
+  }
+}

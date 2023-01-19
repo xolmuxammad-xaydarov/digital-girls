@@ -1,0 +1,55 @@
+.register{
+  margin-top: 80px;
+
+  .form__block{
+    margin: 131px auto 0 auto;
+    max-width: 850px;
+  }
+  form{
+
+    .inp_flex{
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+    }
+
+    input{
+      border: none;
+      width: 364px;
+      height: 45px;
+      outline: none;
+      border-bottom: 1px solid rgba(190, 0, 255, 1);
+      background-color: transparent;
+      margin-bottom: 70px;
+      font-size: 18px;
+    }
+  }
+
+  .label_b{
+    display: block;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 16px;
+    color: #858585;
+  }
+
+  h2{
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 47px;
+    text-align: center;
+  }
+  button{
+    font-family: 'Comfortaa';
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 22px;
+    color: #fff;
+    padding: 14px 33px;
+    border-radius:3px;
+    background: #B131DD;
+    border: none;
+    display: block;margin: 0 auto;
+    cursor: pointer;
+  }
+}

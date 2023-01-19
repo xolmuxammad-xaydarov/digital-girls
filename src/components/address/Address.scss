@@ -1,0 +1,42 @@
+.address{
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+
+  &__text{
+    width: 666px;
+    height: 537px;
+    background-image: url(../../assets/images/address__bg.png);
+    background-repeat: no-repeat;
+  }
+
+  ul{
+    padding-top: 78px;
+
+
+    li{
+      display: flex;
+      align-items: center;
+      padding-left: 91px;
+      margin-bottom: 38px;
+
+      div{
+        margin-left: 31px;
+        font-weight: 600;
+        font-size: 26.272px;
+        line-height: 29px;
+
+        span{
+          font-weight: 300;
+          font-size: 22.5188px;
+          line-height: 25px;
+        }
+      }
+      .b{
+        display: block;
+        width: 277px;
+      }
+    }
+  }
+}

@@ -1,0 +1,32 @@
+.results{
+  margin-top: 120px;
+  background-image: url(../../assets/images/result__bg.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+
+  h2{
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 47px;
+    text-align: center;
+    padding: 70px 0 20px 0;
+  }
+  .result__text{
+    max-width: 902px;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 31px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  ul{
+    display: flex;
+    padding: 96px 0 140px 0;
+
+    li{
+      text-align: center;
+      margin: 0 35px;
+    }
+  }
+}

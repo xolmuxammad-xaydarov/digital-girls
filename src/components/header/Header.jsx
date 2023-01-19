@@ -2,7 +2,7 @@ import React from 'react'
 import './Header.scss'
 import logoImg from '../../assets/images/logoImg.png';
 import GinD from '../../assets/images/GinD.png';
-
+import burger from '../../assets/images/burger.png';
 export default function Header() {
   return (
     <div className='header header-l'>
@@ -13,6 +13,9 @@ export default function Header() {
         </div>
 
         <div className='right_nav'>
+          <div className="burger">
+            <img src={burger} alt="" />
+          </div>
           <nav>
             <ul className='nav__list'>
               <li><a href="/">О Проекте</a></li>

@@ -1,9 +1,12 @@
 *{
   padding: 0;
   margin: 0;
+
 }
 body{
   font-family: 'Comfortaa';
+  background: #E5E5E5;
+  box-sizing: border-box;
 }
 ul,ol{
   list-style-type: none;
@@ -16,4 +19,11 @@ a{
 .container{
   max-width: 1520px;
   margin: 0 auto;
+}
+
+@media screen and (max-width:1568px) {
+  .container{
+    max-width: 1480px;
+    padding: 0 35px;
+  }
 }

@@ -3,7 +3,7 @@
   background-image: url('../../assets/images/bg.png');
   background-repeat: no-repeat;
   background-size: 100%;
-  padding: 134px 0 200px 0;
+  padding: 134px 0 210px 0;
   height: 615px;
 
   .allContent{
@@ -14,12 +14,12 @@
     position: absolute;
     color: #FFFFFF;
     background: #B031DD;
-    padding: 218px 21px 180px 40px;
+    padding: 218px 21px 181px 40px;
     background-image: url(../../assets/images/text_bg.png);
     background-repeat: no-repeat;
     border-radius: 10px;
     z-index: 22;
-    h1{
+    .h1{
       font-size: 78px;
       line-height: 87px;
       font-weight: 600;
@@ -42,7 +42,30 @@
   }
   .picture{
     position: absolute;
-    right: 0;
+    right: 0px;
     z-index: 21;
+  }
+}
+
+@media screen and (max-width:1575px) {
+  .picture{
+    padding-right: 35px;
+  }
+}
+
+@media(max-width:1355px) {
+  .picture{
+    display: none;
+  }
+  .text__content{
+    background-color: transparent;
+    left: 50%;
+    transform: translate(-50%);
+    background-image: url(../../assets/images/woman.png) !important;
+    background-color: transparent !important;
+  }
+  .h1{
+    font-size: 38px !important;
+    color:rgba(178, 34, 15, 0.4);
   }
 }
