@@ -9,7 +9,7 @@ export default function About() {
       <div className="container">
         <h2 className='about__title'>О проекте</h2>
 
-        <div className="teams">
+        <div className="team1">
           <div className="background">
             <div className='img__block'>
               <img src={team1} alt="" />
@@ -22,7 +22,7 @@ export default function About() {
           </div>
         </div>
 
-        <div className="teams2">
+        <div className="team2">
           <div className="background2">
             <div className='team1__text__block2'>
               <p className='team1__text2'>

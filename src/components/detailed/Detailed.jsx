@@ -6,8 +6,8 @@ import image10 from '../../assets/images/image10.png'
 export default function Detailed() {
   return (
     <div className='detailed container'>
-       <div className="teams">
-          <div className="background">
+       <div className="team1__detailed">
+          <div className="background__detailed">
             <div className='img__block'>
               <img src={image8} alt="" />
             </div>
@@ -19,7 +19,7 @@ export default function Detailed() {
           </div>
         </div>
 
-        <div className="teams2">
+        <div className="teams2__detailed">
           <div className="background2">
             <div className='team1__text__block2'>
               <p className='team1__text2'>

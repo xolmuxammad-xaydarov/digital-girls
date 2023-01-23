@@ -4,6 +4,13 @@
   justify-content: center;
   margin-top: 100px;
 
+  @media screen and (max-width:1340px) {
+    .address{
+      display: flex;
+    }
+
+  }
+
   &__text{
     width: 666px;
     height: 537px;

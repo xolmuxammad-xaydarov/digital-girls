@@ -22,11 +22,21 @@
   }
   ul{
     display: flex;
+    flex-wrap: wrap;
     padding: 96px 0 140px 0;
+
+    @media screen and (max-width:825px) {
+      justify-content: center;
+    }
 
     li{
       text-align: center;
       margin: 0 35px;
+      width: 298px;
+
+      @media screen and (max-width:825px) {
+        margin: 30px;
+      }
     }
   }
 }

@@ -15,6 +15,17 @@ export default function Title() {
           <img src={woman} alt="" />
         </div>
       </div>
+
+      <div className="allContent_h container">
+        <div className='text__content_h'>
+          <h1 className='h1'>“Girls in digital”</h1>
+          <p>Организация курсов повышения квалификации для девушек специалистов в сфере ИТ   и подготовка высококвалифицированных кадров</p>
+          <a href="/">Подробнее</a>
+        </div>
+        <div className='picture'>
+          <img src={woman} alt="" />
+        </div>
+      </div>
     </div>
   )
 }

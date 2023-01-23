@@ -8,6 +8,7 @@ import map from '../../assets/images/map.svg'
 export default function Address() {
   return (
     <div className='address container'>
+      <div className="media_f">
       <div className='address__text'>
         <ul>
           <li className='web'>
@@ -42,6 +43,7 @@ export default function Address() {
       </div>
       <div>
       <iframe title='re' src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1426.8456344045321!2d72.35888425263754!3d40.74751830917011!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38bced630e0f4795%3A0xf72460c2369068a8!2sDigital%20City!5e0!3m2!1sru!2s!4v1674156799504!5m2!1sru!2s" width={666} height={537} style={{border:0}} allowFullScreen="" loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
+      </div>
       </div>
     </div>
   )

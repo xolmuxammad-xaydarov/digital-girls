@@ -25,7 +25,7 @@ export default function Home() {
       <Register/>
       <Results/>
       <Address/>
-      <Footer/>
+      {/* <Footer/> */}
     </div>
   )
 }

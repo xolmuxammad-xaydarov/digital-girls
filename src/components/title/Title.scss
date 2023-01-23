@@ -1,4 +1,48 @@
-.bg{
+.allContent_h {
+  display: none;
+}
+
+@media screen and (max-width: 1355px) {
+  .allContent_h {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    color: #fff;
+    background-image: url('../../assets/images/woman.png');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    min-height: 530px;
+    filter: blur(0.8px);
+    position: relative;
+    z-index: 30;
+
+    .h1 {
+      font-weight: 600;
+      font-size: 78px;
+      line-height: 87px;
+      padding: 50px 0 50px;
+      color: #b031dd;
+    }
+    p {
+      width: 750px;
+      font-weight: 400;
+      font-size: 28px;
+      line-height: 45px;
+    }
+    a {
+      display: inline-block;
+      margin-top: 50px;
+      border: 1px solid rgb(108, 5, 234);
+      padding: 9px 17px;
+      color: #58465f;
+
+      :hover {
+        box-shadow: #b031dd;
+      }
+    }
+  }
+}
+.bg {
   position: relative;
   background-image: url('../../assets/images/bg.png');
   background-repeat: no-repeat;
@@ -6,26 +50,39 @@
   padding: 134px 0 210px 0;
   height: 615px;
 
-  .allContent{
-    position: relative;
+  @media screen and (max-width:1568px) {
+    transform: translate(-10px , 0px);
+    overflow-x: hidden;
+  }
+  @media screen and (max-width:1355px) {
+    padding-bottom: 100px;
   }
 
-  .text__content{
+  .allContent {
+    display: flex;
+    position: relative;
+    width: 100%;
+    scrollbar-width: 0.5px;
+  }
+
+  .text__content {
     position: absolute;
-    color: #FFFFFF;
-    background: #B031DD;
+    color: #ffffff;
+    background: #b031dd;
     padding: 218px 21px 181px 40px;
     background-image: url(../../assets/images/text_bg.png);
     background-repeat: no-repeat;
     border-radius: 10px;
     z-index: 22;
-    .h1{
+    overflow-x: hidden;
+
+    .h1 {
       font-size: 78px;
       line-height: 87px;
       font-weight: 600;
       margin-bottom: 40px;
     }
-    p{
+    p {
       max-width: 650px;
       font-weight: 400;
       font-size: 28px;
@@ -33,39 +90,62 @@
       margin-bottom: 63px;
       padding-left: 30px;
     }
-    a{
+    a {
       margin-left: 30px;
       border: 1px solid #fff;
       padding: 9px 17px;
     }
-
   }
-  .picture{
+  .picture {
     position: absolute;
     right: 0px;
     z-index: 21;
+
+    @media screen and (max-width: 1566px) {
+      transform: translate(-10px, 0px);
+    }
+
+    @media screen and (max-width: 1552px) {
+      transform: translate(-60px, 0px);
+    }
   }
 }
 
-@media screen and (max-width:1575px) {
-  .picture{
+@media screen and (max-width: 1575px) {
+  .picture {
     padding-right: 35px;
   }
 }
 
-@media(max-width:1355px) {
-  .picture{
+@media (max-width: 1355px) {
+  .picture {
+    padding: 0;
     display: none;
   }
-  .text__content{
-    background-color: transparent;
-    left: 50%;
-    transform: translate(-50%);
-    background-image: url(../../assets/images/woman.png) !important;
-    background-color: transparent !important;
+  .bg {
+    .text__content {
+      display: none;
+    }
   }
-  .h1{
-    font-size: 38px !important;
-    color:rgba(178, 34, 15, 0.4);
+}
+
+@media screen and (max-width: 900px) {
+  .bg {
+    position: static;
+    .allContent {
+      position: relative;
+      c .text__content {
+        display: block;
+        margin: 0 auto;
+        position: static;
+        background-image: url(../../assets/images/woman.png);
+        background-size: cover;
+
+        .h1 {
+          font-size: 48px;
+          color: rgb(102, 5, 124);
+        }
+      }
+    }
   }
 }
