@@ -7,6 +7,10 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+
+    @media screen and (max-width:1245px) {
+      display: block;
+    }
   }
 
 
@@ -14,6 +18,11 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+
+    @media screen and (max-width:1245px) {
+      margin: 30px 0;
+      justify-content: center;
+    }
   }
   .socials{
     li{
@@ -30,6 +39,10 @@
   .logos_f{
     width: 191px;
     text-align: center;
+
+    @media screen and (max-width:1245px) {
+      margin: 0 auto;
+    }
 
     img{
       text-align: center;
